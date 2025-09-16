@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <!-- Logo at the left top corner -->
+  <img src="https://tse4.mm.bing.net/th/id/OIP.7ChqbFDs8fTJwaF4vnU_fQHaHK?pid=Api&P=0&h=180" alt="Logo" width="100">
+
+  <h2 align="center">Registration Form</h2>
+
+  <table border="0" align="center" cellpadding="10">
+    <form action="#" method="post" enctype="multipart/form-data">
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="age">Age:</label></td>
+        <td><input type="number" id="age" name="age" required></td>
+      </tr>
+      <tr>
+        <td><label for="dob">Date of Birth:</label></td>
+        <td><input type="date" id="dob" name="dob" required></td>
+      </tr>
+      <tr>
+        <td><label for="rollno">Roll No:</label></td>
+        <td><input type="text" id="rollno" name="rollno" required></td>
+      </tr>
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><textarea id="address" name="address" rows="3" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td>Branch:</td>
+        <td>
+          <input type="radio" id="it" name="branch" value="IT" required>
+          <label for="it">IT</label>
+          <input type="radio" id="cse" name="branch" value="CSE">
+          <label for="cse">CSE</label>
+          <input type="radio" id="ce" name="branch" value="CE">
+          <label for="ce">CE</label>
+          <input type="radio" id="aiml" name="branch" value="AIML">
+          <label for="aiml">AIML</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="language">Language:</label></td>
+        <td>
+          <select id="language" name="language" multiple>
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="file">Upload File:</label></td>
+        <td><input type="file" id="file" name="file"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit" >
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+    </form>
+  </table>
+
+</body>
+</html>
