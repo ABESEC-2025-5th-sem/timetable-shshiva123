@@ -1,10 +1,10 @@
-// function in js 
-// function keyword - hoisted
-// function fun(){
-//     console.log("FSD Class");
-// }
-// console.log(fun);
-// console.log(fun());
+// // function in js 
+// // function keyword - hoisted
+// // function fun(){
+// //     console.log("FSD Class");
+// // }
+// // console.log(fun);
+// // console.log(fun());
 
 
 // function as Expression

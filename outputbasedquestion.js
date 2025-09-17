@@ -8,7 +8,7 @@
 
 
 
-//using function
+// using function
 // var a = 13;
 // console.log(a);
 // function fun(){
@@ -28,8 +28,8 @@
 // console.log(typeof y);
 
 
-//datatyes in javascript
-//primitive(boolean ,number ,null ,),non primitive(array , string,)
+// datatyes in javascript
+// primitive(boolean ,number ,null ,),non primitive(array , string,)
 
 
 // let a="235"-23+23+"true"-false+23-235+235;
